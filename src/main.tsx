@@ -10,9 +10,10 @@ import "./styles/helpers.css";
 import "./styles/defaults.css";
 
 createRoot(document.getElementById("root")!).render(
-	<BrowserRouter>
-		<StrictMode>
+	<StrictMode>
+		<BrowserRouter>
 			<App />
-		</StrictMode>
-	</BrowserRouter>,
+		</BrowserRouter>
+		,
+	</StrictMode>,
 );
