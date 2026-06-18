@@ -1,5 +1,6 @@
+import Header from "../../components/header/Header";
 import "./Index.css";
 
 export default function Index() {
-	return <div>Index</div>;
+	return <Header />;
 }
