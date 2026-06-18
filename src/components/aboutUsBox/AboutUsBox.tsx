@@ -3,10 +3,10 @@ import "./AboutUsBox.css";
 type AboutUsBoxProps = {
 	title: string;
 	desc: string;
-	icon: string;
+	icon?: string;
 };
 
-export default function AboutUsBox({ title, desc, icon }: AboutUsBoxProps) {
+export default function AboutUsBox({ title, desc }: AboutUsBoxProps) {
 	return (
 		<div className="col-6">
 			<div className="about-us__box">

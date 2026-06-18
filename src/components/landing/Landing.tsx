@@ -1,5 +1,6 @@
 import Typewriter from "typewriter-effect";
 import "./Landing.css";
+import LandingCounter from "../landingCounter/LandingCounter";
 
 export default function Landing() {
 	return (
